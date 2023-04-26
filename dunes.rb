@@ -1,7 +1,4 @@
 class Dunes < Formula
-   typed: false
-   frozen_string_literal: true
-
    homepage "https://github.com/larryk85/dune/"
    revision 0
    url "https://github.com/larryk85/dune/archive/0.0.1.tar.gz"
