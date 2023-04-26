@@ -1,4 +1,4 @@
-class dunes < Formula
+class Dunes < Formula
    typed: false
    frozen_string_literal: true
 
