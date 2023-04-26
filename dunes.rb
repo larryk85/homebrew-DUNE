@@ -6,12 +6,12 @@ class Dunes < Formula
    
    option :universal
 
-   depends_on "python3" => :build
-   depends_on "docker" => :build
-   
    bottle do
       sha256 "04d23833242e65d245c199c470fff51a2c411711077f979d5afb50720bf1e5f3" => :ventura
    end
+   
+   depends_on "python3" => :build
+   depends_on "docker" => :build
    
    def install
       raise "Error, only supporting binary packages at this time"   
