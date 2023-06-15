@@ -9,7 +9,7 @@ class Dunes < Formula
 
    bottle do
       root_url "https://github.com/larryk85/homebrew-dunes/releases/download/v1.0.0/dunes.tar.gz"
-      sha1 "275edd293690132b8ee9a73650821be8a6878a76"
+      sha256 "c4b2c61f65093551019cfbba4f96ee61245a2f4e86bec230f4a7c28b15660bda"
    end
 
    depends_on "docker"
