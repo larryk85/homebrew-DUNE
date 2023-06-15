@@ -1,20 +1,18 @@
 class Dunes < Formula
-   homepage "https://github.com/larryk85/dune/"
+   desc "DUNES"
+   homepage "https://www.github.com/antelopeio/DUNES"
    revision 0
-   url "https://github.com/larryk85/dune/archive/0.0.1.tar.gz"
-   version "0.0.1"
-   
+   url "https://github.com/antelopeio/dunes/archive/v1.1.2.tar.gz"
+   version "1.1.2"
+
    option :universal
 
    bottle do
-      sha256 "04d23833242e65d245c199c470fff51a2c411711077f979d5afb50720bf1e5f3" => :ventura
+      root_url "https://github.com/larryk85/homebrew-dunes/releases/download/v1.0.0/dunes.tar.gz"
+      sha1 "275edd293690132b8ee9a73650821be8a6878a76"
    end
-   
-   depends_on "python3" => :build
-   depends_on "docker" => :build
-   
-   def install
-      raise "Error, only supporting binary packages at this time"   
-   end
+
+   depends_on "docker"
+   depends_on "python3"
 end
-   
+__END__
